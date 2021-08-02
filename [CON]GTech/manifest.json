@@ -1,0 +1,13 @@
+{
+    "Name": "[CON]GTech", //模组名
+    "Author": "LuoYingZhiYu", //作者名
+    "Version": "1.0.0", //版本
+    "Description": "加入格雷科技的矿石.", //描述
+    "UniqueID": "LuoYingZhiYu.CON.GT", //唯一标识符
+	"UpdateKeys": ["Nexus:???"],
+    "MinimumApiVersion": "3.8.0", //最低需求版本
+    "ContentPackFor"://所属前置模组
+    {
+        "UniqueID": "aedenthorn.CustomOreNodes"
+    },  
+}

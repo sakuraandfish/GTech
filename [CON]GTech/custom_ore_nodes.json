@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "parentSheetIndex": 0, //自动设置
+      "dropItems": [  //掉落物品列表
+        {
+          "itemIdOrName": "硅岩锭", //对象索引或项目名称
+          "dropChance": 50.0, //掉落几率
+          "minAmount": 1, //最小掉落量
+          "maxAmount": 3, //最大掉落量
+          "luckyAmount": 1, //如果幸运的话额外掉落的数量
+          "minerAmount": 1 //如果是熟练的旷工额外掉落的数量
+        },
+      ],
+      "oreLevelRanges": [ //矿石生成的矿井级别范围
+        { //minLevel,maxLevel：设置为 -1 以禁用它； 121是第一层骷髅洞； 0 表示在矿井外（0,0 表示仅在矿井外）
+          "minLevel": 100,
+          "maxLevel": 120, 
+          "spawnChanceMult": 0.5,//此节点生成的基本机会范围的乘数
+          "expMult": 1.0, //用于挖掘此节点的基础 exp 范围的乘数
+          "dropChanceMult": 1.0, //每个项目从节点掉落的基本机会范围的乘数
+          "dropMult": 1.0, //从节点掉落的每个项目的基本数量范围的乘数
+          "minDifficulty": -1,//SDV 1.5 的新功能，矿井会变得更难。 如果您只想让它在更难的关卡上生成，请将其中任何一个设置为 1。 设置为 -1 以禁用。
+          "maxDifficulty": -1
+        }
+      ],
+      "nodeDesc": "硅岩矿.", //描述矿石
+      "spritePath": "矿物贴图\\硅岩矿.png", //矿石图片文件路径
+      "spriteType": "mod", //mod或game，更改mod查找图形文件的位置
+      "spriteX": 0, //图形文件中此矿石图片开始的坐标
+      "spriteY": 0,
+      "spriteW": 16, //该矿石图片的宽度和高度（必须是 16, 16）
+      "spriteH": 16,
+      "spawnChance": 5.0, //每个石头成为此类矿石的基础百分比
+      "durability": 16, //挖掘难度
+      "exp": 12, //挖掘后给予经验
+      "texture": null //保留为null
+},]}
