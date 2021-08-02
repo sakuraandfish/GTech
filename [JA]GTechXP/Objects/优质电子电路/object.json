@@ -1,0 +1,38 @@
+{
+    "Name": "高级电子电路", //物品名
+    "Description": "一个加强过的电路，用于合成大部分HV级机器", //物品描述
+    "Category": "ArtisanGoods", //物品类型
+	"CategoryTextOverride": "材料：芯片", //类型文本覆盖
+    "Edibility": -300, //食用性-300为不可食用
+    "Price": 50, //价格
+    "IsColored": false, //颜色取样
+    "Recipe": null, //配方
+    "NameLocalization": //翻译名称
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        //"en": "",
+    },
+    "DescriptionLocalization": //翻译描述
+    {
+      //"es": "",
+      //"ko": "",
+      //"de": "",
+      //"fr": "",
+      //"hu": "",
+      //"it": "",
+      //"ja": "",
+      //"pt": "",
+      //"ru": "",
+      //"tr": "",
+      //"en": "",
+    }
+}

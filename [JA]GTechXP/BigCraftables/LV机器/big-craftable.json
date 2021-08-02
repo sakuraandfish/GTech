@@ -1,0 +1,56 @@
+{
+    "Name": "LV机器", //名称
+    "Description": "暂时用来将硅岩变成铱矿.", //描述
+    "Price": 1, //价值
+    "ProvidesLight": true, //是否提供光源
+    "ReserveExtraIndexCount": 5, //储备额外索引计数
+    "Recipe": //配方
+    {
+        "ResultCount": 1, //合成结果数量
+        "Ingredients": [
+        {
+            "Object": 787, //物品索引或名称
+            "Count": 3, //数量
+        },
+		{
+            "Object": 72, //物品索引或名称
+            "Count": 2, //数量
+        },
+    ],
+		//"CanPurchase": true, //配方是否可购买
+		//"PurchaseFrom": "Pierre", //出售NPC
+		//"PurchasePrice": 0 //购买价格
+        //"SkillUnlockName": "", //技能解锁名称
+		//"SkillUnlockLevel": , //技能解锁名称
+		"IsDefault": true, //是否默认解锁
+    },
+    "CanPurchase": false, //是否可以购买
+    "NameLocalization": //翻译名称
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        //"en": "",
+    },
+    "DescriptionLocalization": //翻译描述
+    {
+       //"es": "",
+       // "ko": "",
+       // "de": "",
+       //"fr": "",
+       // "hu": "",
+       // "it": "",
+       // "ja": "",
+       //  "pt": "",
+       //  "ru": "",
+       // "tr": "",
+       //"en": "",
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "Name": "蚀刻兰波顿芯片", //物品名
+    "Description": "将兰波顿水晶经过激光蚀刻之后得到，用于制作能量流电路或兰波顿能量球", //物品描述
+    "Category": "ArtisanGoods", //物品类型
+	"CategoryTextOverride": "材料：芯片", //类型文本覆盖
+    "Edibility": -300, //食用性-300为不可食用
+    "Price": 50, //价格
+    "IsColored": false, //颜色取样
+    "Recipe": null, //配方
+    "NameLocalization": //翻译名称
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        //"en": "",
+    },
+    "DescriptionLocalization": //翻译描述
+    {
+      //"es": "",
+      //"ko": "",
+      //"de": "",
+      //"fr": "",
+      //"hu": "",
+      //"it": "",
+      //"ja": "",
+      //"pt": "",
+      //"ru": "",
+      //"tr": "",
+      //"en": "",
+    }
+}

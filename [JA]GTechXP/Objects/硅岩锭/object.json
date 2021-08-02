@@ -1,0 +1,46 @@
+{
+    "Name": "硅岩锭", //物品名
+    "Description": "冷却后的热硅岩锭.", //物品描述
+    "Category": "ArtisanGoods", //物品类型
+	"CategoryTextOverride": "锭", //类型文本覆盖
+    "Edibility": -300, //食用性-300为不可食用
+    "Price": 500, //价格
+    "IsColored": false, //颜色取样
+    "Recipe":  //配方
+	{
+        "ResultCount": 1, //合成结果数量
+        "Ingredients": [
+        {
+            "Object": 168, //物品索引或名称
+            "Count": 1, //数量
+        },
+    ]},
+    "NameLocalization": //翻译名称
+	{
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        //"en": "",
+    },
+    "DescriptionLocalization": //翻译描述
+    {
+      //"es": "",
+      //"ko": "",
+      //"de": "",
+      //"fr": "",
+      //"hu": "",
+      //"it": "",
+      //"ja": "",
+      //"pt": "",
+      //"ru": "",
+      //"tr": "",
+      //"en": "",
+    }
+}
