@@ -1,0 +1,20 @@
+[ 
+ {
+        "ProducerName": "LV机器", //机器名称
+        "InputIdentifier": "硅岩锭", //输入标识符
+        "InputStack": 1, //输入数量
+		"OutputStack": 6, //输出数量
+        "FuelIdentifier": "386", //燃料标识符
+        "FuelStack": 1, //燃料数量
+        "MinutesUntilReady": 90, //制作需求时间
+        "OutputIdentifier": "386", //输出标识符
+        //"OutputName": "", //输出名称
+		//"KeepInputParentIndex": true, //保持输入父索引
+        //"InputPriceBased": true, //基于输入价格
+		"KeepInputQuality": true, //保持输入质量
+        "OutputPriceIncrement": 200, //输出价格增量
+        "OutputPriceMultiplier": 2.5, //产出价格乘数
+        "Sounds": ["Ship"], 
+		//"PlacingAnimationColorName": "White"
+    },
+	]

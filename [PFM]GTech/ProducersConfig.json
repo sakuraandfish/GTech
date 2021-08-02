@@ -1,0 +1,16 @@
+[
+	{
+		"ProducerName": "LV Machine Casing",
+		//"AlternateFrameProducing": false, //交替帧制作
+		"AlternateFrameWhenReady": true, //准备就绪时的备用帧
+		"DisableBouncingAnimationWhileWorking": false, //工作时禁用弹跳动画
+		"ProducingAnimation": {  //制作动画
+            "RelativeFrameIndex": [1, 2, 3, 4],  //相对帧索引
+            "FrameInterval": 10 //帧间隔
+        },
+        "ReadyAnimation":  //准备好动画
+        {
+        	"RelativeFrameIndex": [5], //相对帧索引
+   		},
+	}
+	]
