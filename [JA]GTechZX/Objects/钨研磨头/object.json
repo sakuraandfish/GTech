@@ -1,0 +1,38 @@
+{
+    "Name": "钨研磨头", //物品名
+    "Description": "用钨制成的研磨头，用于制作研磨机、碎石机等机器或回收成钨", //物品描述
+    "Category": "ArtisanGoods", //物品类型
+	"CategoryTextOverride": "材料：杂项", //类型文本覆盖
+    "Edibility": -300, //食用性-300为不可食用
+    "Price": 0, //价格
+    "IsColored": false, //颜色取样
+    "Recipe": null, //配方
+    "NameLocalization": //翻译名称
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        //"en": "",
+    },
+    "DescriptionLocalization": //翻译描述
+    {
+      //"es": "",
+      //"ko": "",
+      //"de": "",
+      //"fr": "",
+      //"hu": "",
+      //"it": "",
+      //"ja": "",
+      //"pt": "",
+      //"ru": "",
+      //"tr": "",
+      //"en": "",
+    }
+}

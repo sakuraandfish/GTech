@@ -1,0 +1,76 @@
+{
+    "Name": "紫色饮料", //物品名称
+    "Description": "奇怪的紫色饮料，或许可以喝", //物品描述
+    "Category": "Cooking", //根据你想要的菜单，设置为制作(Crafting)或烹饪(Cooking)。
+    "Edibility": 150, //可食性是为了健康，能量是通过游戏来计算的。对于不能食用的物品，设置为-300。
+    "EdibleIsDrink": true, //设置为真或假取决于你想要显示的动画(喝或吃)。
+    "EdibleBuffs": //设置为null或包含所有必需的有效字段。如果只使用所需的字段，它将不起作用。
+    {
+        "Farming": 0, //农业
+        "Fishing": 0, //钓鱼
+        "Mining": 2,  //挖矿
+        "Luck": 2,   //运气
+        "Foraging": 0, //觅食
+        "MaxStamina": 50, //最大耐力
+        "MagnetRadius": 50, //磁力
+        "Speed": 2, //速度
+        "Defense": 0, //防御
+        "Attack": 0, //攻击
+        "Duration": 300, //持续时间
+    },
+    "Price": 7500, //售卖价值
+    "IsColored": false, //是否为彩色/设置为假
+
+    "Recipe": //配方
+    {
+        "ResultCount": 1, //合成数量
+        "Ingredients": [
+        {
+            "Object": 398, //物品索引ID或物品名
+            "Count": 5,
+        },
+        {
+            "Object": 422, //可以在一个配方加入五种材料
+            "Count": 1,
+        }, 
+      ],
+
+    //This block is the same as above. When placed inside the Recipe block it will make the recipe purchaseable.
+    "CanPurchase": false, //Set this to true if IsDefault is set to false or excluded from the json.
+    //"PurchaseFrom": "Dwarf", //7Who you can purchase the recipe from. Valid entries are: Willy, Pierre, Robin, Sandy, Krobus, Clint, Harvey, Marlon, and Dwarf. If an NPC isn't listed here they can't be used. Pierre is the default vendor.
+    //"PurchasePrice": 500000, //How much you can purchase the recipe for.
+    //"PurchaseRequirements": ["y 2", "f Dwarf 1500"], //See Event Preconditions (https://stardewvalleywiki.com/Modding:Event_data#Event_preconditions). 
+    "IsDefault": true,
+	},
+
+ // Localization
+
+    "NameLocalization":
+    {
+        //"es": "", //Spansih
+        //"ko": "", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        //"en": "", //
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "", //Spansih
+        //"ko": "", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        //"en": "", //
+    },
+}
