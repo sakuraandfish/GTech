@@ -1,0 +1,17 @@
+{
+	"Name": "[JA]GTechCL", //模组名
+	"Author": "落樱之鱼", //作者名
+	"Description": "加入材料", //描述
+	"Version": "1.0.0", //版本
+	"UniqueID": "LuoYingZhiYu.JA.GT.CL", //唯一标识符
+	"UpdateKeys": ["Nexus:???"],  //更新秘钥
+	"MinimumApiVersion": "3.8.0", //最低前置版本
+	"ContentPackFor": { //内容包（此模组属于什么前置）
+		"UniqueID": "spacechase0.JsonAssets",
+	},
+	"Dependencies": [ //依赖模组
+    {
+        "UniqueID": "DIGUS.ProducerFrameworkMod",
+        "IsRequired": true,
+    },],
+}
